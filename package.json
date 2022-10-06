@@ -1,0 +1,34 @@
+{
+  "name": "whitelist-dapp",
+  "version": "1.0.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayush-3516/Whitelist-dApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayush-3516/Whitelist-dApp/issues"
+  },
+  "homepage": "https://github.com/ayush-3516/Whitelist-dApp#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "web3modal": "^1.9.9"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
