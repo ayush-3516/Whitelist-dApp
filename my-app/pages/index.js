@@ -16,8 +16,8 @@ export default function Home() {
     const web3Provider = new providers.Web3Provider(provider);
     const { chainId } = await web3Provider.getNetwork();
     if (chainId !== 80001) {
-      window.alert("Change the network to Goerli");
-      throw new Error("Change network to Goerli");
+      window.alert("Change the network to Polygon Mumbai");
+      throw new Error("Change network to Polygon Mumbai");
     }
     if (needSigner) {
       const signer = web3Provider.getSigner();
